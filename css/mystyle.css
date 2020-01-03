@@ -1,4 +1,4 @@
-html, body {
+		html, body {
 			width: 100%;
 			height: 100%;
 		}
@@ -153,7 +153,7 @@ html, body {
 			border-radius: 10px;
 		}
 
-		::-webkit-scrollbar-thumb 
+		::-webkit-scrollbar-thumb
 		{
 			background: rgb(30,144,255);
 			border-radius: 10px;
@@ -361,7 +361,7 @@ html, body {
 		}
 
 		.messifamily {
-			width: 40%;
+			width: 35%;
 		}
 
 		footer {
@@ -467,6 +467,92 @@ html, body {
 			}
 		}	
 
+		@media only screen and (max-width: 1125px) {
+			.firstarticlebackground {
+				padding-bottom: 150%;
+			}
+		}
+
+		@media only screen and (max-width: 1024px) {
+			#header {
+				width: 40%;
+				height: 25%;
+				margin-left: 10px;
+				margin-top: 120px;
+				font-size: 15px;
+			}
+
+			.firstarticlebackground {
+				padding-bottom: 150%;
+			}
+		}
+
+		@media only screen and (max-width: 1020px) {
+			#header {
+				width: 45%;
+				height: 30%;
+				margin-left: 10px;
+				font-size: 15px;
+			}
+
+			.firstarticlebackground {
+				padding-bottom: 150%;
+			}
+		}
+
+		@media only screen and (max-width: 970px) {
+			#header {
+				width: 45%;
+				height: 40%;
+				margin-left: 10px;
+				font-size: 15px;
+			}
+
+			.firstarticlebackground {
+				padding-bottom: 150%;
+			}
+		}
+
+		@media only screen and (max-width: 930px) {
+			#header {
+				width: 45%;
+				height: 40%;
+				margin-left: 10px;
+				font-size: 15px;
+			}
+
+			.firstarticlebackground {
+				padding-bottom: 150%;
+			}
+		}
+
+		@media only screen and (max-width: 850px) {
+			#header {
+				width: 45%;
+				height: 40%;
+				margin-left: 10px;
+				font-size: 15px;
+			}
+
+			.firstarticlebackground {
+				padding-bottom: 150%;
+			}
+		}
+
+		@media only screen and (max-width: 800px) {
+			#header {
+				width: 45%;
+				height: 40%;
+				margin-left: 10px;
+				margin-top: 200px;
+				font-size: 15px;
+			}
+
+			.firstarticlebackground {
+				padding-bottom: 187%;
+			}
+		}
+
 		@media only screen and (max-width: 750px) {
 			#header {
 				width: 45%;
@@ -503,10 +589,6 @@ html, body {
 				font-size: 15px;
 			}
 
-			table {
-				width: 30%;
-			}
-
 			.firstarticlebackground {
 				padding-bottom: 700%;
 			}
@@ -532,10 +614,6 @@ html, body {
 				margin-left: 10px;
 				margin-top: 200px;
 				font-size: 12px;
-			}
-
-			table {
-				width: 30%;
 			}
 
 			.firstarticlebackground {
@@ -565,14 +643,9 @@ html, body {
 				font-size: 9px;
 			}
 
-			table {
-				width: 30%;
-			}
-
 			.firstarticlebackground {
 				padding-bottom: 700%;
 			}
-
 
 			.secondarticlebackground {
 				padding-bottom: 400%;
@@ -603,10 +676,6 @@ html, body {
 
 			#googleplayimg {
 				width: 70px;
-			}
-
-			table {
-				width: 30%;
 			}
 
 			.firstarticlebackground {
@@ -711,10 +780,6 @@ html, body {
 				font-size: 8px;
 			}
 
-			table {
-				width: 30%;
-			}
-
 			.secondarticlebackground {
 				padding-bottom: 300%;
 			}
@@ -732,10 +797,6 @@ html, body {
 		@media only screen and (max-width: 555px) {
 			#messicelebration, #messicelebration2 {
 				float: left;
-			}
-
-			table {
-				width: 30%;
 			}
 
 			.secondarticlebackground {
