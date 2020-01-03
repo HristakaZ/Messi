@@ -11,13 +11,13 @@
 </head>
 <body onscroll="onScroll()">
 	<header class="parallax">
-		<nav>
-			<ul id="navbar">
+		<nav> <!--fixed the validation error showing that button mustn't be a descendant of a with javascript(location.href) -->
+			 <ul id="navbar">
 				<li><img src="images/messi-font-edited.png" alt="Messi font logo." id="clickable" onclick="scrollToTop()"></li>
-				<li><a href="#Biography"><button class="button button1" onclick="smoothScroll()">Biography</button></a></li>
-				<li><a href="#Awards"><button class="button button1" onclick="smoothScroll()">Awards</button></a></li>
-				<li><a href="#Statsandtitles"><button class="button button3" onclick="smoothScroll()">Stats And Titles</button></a></li>
-				<li><a href="#Life"><button class="button button4" onclick="smoothScroll()">Life</button></a></li>
+				<li><button class="button button1" onclick="smoothScroll(); location.href='#Biography'">Biography</button></li>
+				<li><button class="button button1" onclick="smoothScroll(); location.href='#Awards'">Awards</button></li>
+				<li><button class="button button3" onclick="smoothScroll(); location.href='#Statsandtitles'">Stats And Titles</button></li>
+				<li><button class="button button4" onclick="smoothScroll(); location.href='#Life'">Life</button></li>
 			</ul>
 		</nav>
 		<div id="header">
